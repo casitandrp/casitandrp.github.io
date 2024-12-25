@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="must-revalidate">
+    <title>Rock Solid - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <script src="https://kit.fontawesome.com/68e5b1204c.js" crossorigin="anonymous"></script>
+    <script defer src="/assets/js/app.js"></script>
+</head>
+    <body>
+        <div class="desktopnav">
+        <div class="navheader">
+            <a class="nav-logo" href="index.html"><img  src="/assets/img/casitasimp.png" alt=""></a>
+        <button id="burger" class="open-main-nav">
+            <span class="burger"></span>
+        </button>
+        </div>
+        <nav class="main-nav" id="main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html" id="activepage">MENU</a></li>
+                <li class="mobiledrop"><a href="event.html">EVENT BOOKING</a></li>
+                <li class="mobiledrop"><a href="comments.html">COMMENT CARDS</a></li>
+                <li class="mobiledrop"><a href="apply.html">APPLICATIONS</a></li>
+                <!--make own list maybe???????  -->
+                <li class="dropdown" id="hide">
+                    <a href="">FORMS</a>
+                    <div class="formsdropdown">
+                        <ul>
+                            <li><a href="event.html">EVENT BOOKING</a></li>
+                            <li><a href="comments.html">COMMENT CARDS</a></li>
+                            <li><a href="apply.html">APPLICATIONS</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="headergap"></div>
+
+<div class="mainmenupart">
+    <div class="menuheader">
+        <h1>Menu</h1>
+    </div>
+    <div class="menunavigation">
+        <button class="menushowbtn toggle-button" type="button" data-target=".apps">Appetisers</button>
+        <button class="menushowbtn toggle-button" type="button" data-target=".entrees">Entrees</button>
+        <button class="menushowbtn toggle-button" type="button" data-target=".dess">Desserts</button>
+        <button class="menushowbtn toggle-button" type="button" data-target=".drinks">Drinks</button>
+    </div>
+</div>
+
+
+    <!-- APPETISERS -->
+    
+<div class="foodvis apps toggle-target" data-hideme="hidden">
+    <button class="menushowbtn totopbtn toggle-button" type="button" data-target=".apps" ><i type="button" data-target=".apps" class="fa-solid fa-angle-up"></i></button>
+            <!-- shrimp -->
+            <div class="menuitem">
+                    <img class="menuitemimg slide-up" src="/assets/img/apps/Shrimp_Ceviche_600.png  " alt="">
+                <div class="menuitemtext fade-in">
+                    <h1>Shrimp Ceviche</h1>
+                    <p>Shrimp marinated in lime juice, onions, chili peppers, and seasoning.Served with avocado and squash.</p>
+                    <h1>$30</h1>
+                </div>
+            </div>
+            <!-- arros -->
+            <div class="menuitem">
+                <img class="menuitemimg imgmobile slide-up" src="/assets/img/apps/Arroz_Con_Leche_600.png" alt="">
+            <div class="menuitemtext fade-in">
+                <h1>Arroz Con Leche</h1>
+                <p>A rice pudding, made with long-grain white rice, sugar, milk, and cinnamon sticks.</p>
+                <h1>$30</h1>
+            </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/apps/Arroz_Con_Leche_600.png" alt="">
+        </div>
+        <!-- garlicribs -->
+            <div class="menuitem">
+                    <img class="menuitemimg slide-up" src="/assets/img/apps/Garlic_Corn_Ribs_600.png" alt="">
+                <div class="menuitemtext fade-in">
+                    <h1>Garlic Corn Ribs</h1>
+                    <p>Grilled corn cobs cut into quarters longways, seasoned with garlic, paprika, parmesan, and cilantro.</p>
+                    <h1>$30</h1>
+                </div>
+            </div>
+            <!-- granola berry -->
+            <div class="menuitem">
+                <img class="menuitemimg imgmobile slide-up" src="/assets/img/apps/Berry_Tarts_600.png" alt="">
+            <div class="menuitemtext fade-in">
+                <h1>Granola Berry Tarts</h1>
+                <p>These tarts are made with a granola crust, a creamy berry filling, topped with fresh mixed berries.</p>
+                <h1>$30</h1>
+            </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/apps/Berry_Tarts_600.png" alt="">
+        </div>
+</div>
+    <!-- entrees -->
+<div class="foodvis entrees toggle-target" data-hideme="hidden">
+    <button class="menushowbtn totopbtn toggle-button" type="button" data-target=".entrees" ><i type="button" data-target=".entrees" class="fa-solid fa-angle-up"></i></button>
+    <!-- Huevos Rancheros -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/entrees/Huevos_Rancheros_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Huevos Rancheros</h1>
+                    <p>Fried eggs over refried beans on a tortilla, topped with fresh warm red salsa, cheese, and cilantro.</p>
+                    <h1>$50</h1>
+                </div>
+        </div>
+        <!-- Chimichangas -->
+        <div class="menuitem">
+            <img class="menuitemimg imgmobile slide-up" src="/assets/img/entrees/Chimichanga_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Chimichangas</h1>
+                    <p>A fried burrito, filled with meat, beans, cheese and salsa. Comes with a side of beans and rice.</p>
+                    <h1>$50</h1>
+                </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/entrees/Chimichanga_600.png" alt="">
+        </div>
+        <!-- French Toast w/ Maple Glazed Pears -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/entrees/French_Toast_w_Glazed_Pears_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>French Toast w/ Maple Glazed Pears</h1>
+                    <p>Cinnamon battered bread that's toasted, topped with maple glazed pears, walnuts and powdered sugar.</p>
+                    <h1>$50</h1>
+                </div>
+        </div>
+        <!-- Chicken and Dumplings -->
+        <div class="menuitem">
+            <img class="menuitemimg imgmobile slide-up" src="/assets/img/entrees/Chicken_and_Dumplings_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Chicken and Dumplings</h1>
+                    <p>A hearty savory soup, made with chicken, peas, sweet carrots, and light fluffy dumplings in a creamy and comforting broth.</p>
+                    <h1>$50</h1>
+                </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/entrees/Chicken_and_Dumplings_600.png" alt="">
+        </div>
+    </div>
+    <!-- desserts -->
+<div class="foodvis dess toggle-target" data-hideme="hidden">
+    <button class="menushowbtn totopbtn toggle-button" type="button" data-target=".dess" ><i type="button" data-target=".dess" class="fa-solid fa-angle-up"></i></button>
+
+    <!-- Fruit Cup -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/desserts/Fruit_Cup_600.png"">
+                <div class="menuitemtext">
+                    <h1>Fruit Cup</h1>
+                    <p>Street style fruit cup, with watermelon, mango, pineapple, chamoy sauce, lime juice, and tajin.</p>
+                    <h1>$40</h1>
+                </div>
+        </div>
+        <!-- Concha -->
+        <div class="menuitem">
+            <img class="menuitemimg imgmobile slide-up" src="/assets/img/desserts/Conchas_Choc_Nilla_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Concha</h1>
+                    <p>Traditional sweet bread with a crumbling sweet icing. Traditional flavors are vanilla and chocolate.</p>
+                    <h1>$40</h1>
+                </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/desserts/Conchas_Choc_Nilla_600.png" alt="">
+        </div>
+        <!-- mango paleta -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/desserts/Paleta_Mango_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Mango Paleta</h1>
+                    <p>Made with fresh mangos, lemon juice, dipped in chamoy and dusted with some tajin!</p>
+                    <h1>$40</h1>
+                </div>
+        </div>
+        <!-- strawberry Pineapple Paleta -->
+        <div class="menuitem">
+            <img class="menuitemimg imgmobile slide-up" src="/assets/img/desserts/Paleta_Strawberry_Pinapple_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Strawberry Pineapple Paleta</h1>
+                    <p>Made with fresh strawberries and pineapples mixed together in a sweet mexican crema.</p>
+                    <h1>$40</h1>
+                </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/desserts/Paleta_Strawberry_Pinapple_600.png" alt="">
+        </div>
+        <!-- Vanilla Buzz -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/desserts/Honeycomb_Collab_Sundae600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Vanilla Buzz</h1>
+                    <p>A vanilla ice cream sundae with honeycomb chunks, whiskey caramel sauce, and extra honey drizzle.</p>
+                    <h1>$40</h1>
+                </div>
+        </div>
+    </div>
+    <!-- drinks -->
+<div class="foodvis drinks toggle-target" data-hideme="hidden">
+    <button class="menushowbtn totopbtn toggle-button" type="button" data-target=".drinks" ><i type="button" data-target=".drinks" class="fa-solid fa-angle-up"></i></button>
+
+    <!-- Fresas Con Crema -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/drinks/Frescas_Con_Crema_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Fresas Con Crema</h1>
+                    <p>A thick sweet drink, fresh cut strawberry, mexcian crema, heavy cream and sweetened condensed milk.</p>
+                    <h1>$25</h1>
+                </div>
+        </div>
+        <!-- Mexican Hot Chocolate -->
+        <div class="menuitem">
+            <img class="menuitemimg imgmobile slide-up" src="/assets/img/drinks/Mexican_Hot_Chocolate_600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Mexican Hot Chocolate</h1>
+                    <p>A warm bittersweet chocolate, cinnamon, chili powder, a pinch of cayenne and milk.</p>
+                    <h1>$25</h1>
+                </div>
+            <img class="menuitemimg imgright slide-up" src="/assets/img/drinks/Mexican_Hot_Chocolate_600.png" alt="">
+        </div>
+        <!-- Honey-Bear Elixir -->
+        <div class="menuitem">
+            <img class="menuitemimg slide-up" src="/assets/img/drinks/Honeycomb_Collab_Drink600.png" alt="">
+                <div class="menuitemtext">
+                    <h1>Honey-Bear Elixir</h1>
+                    <p>Mint tea and limeade, sweetened with honey from Honeycomb Cafe, garnished with a rosemary sprig.</p>
+                    <h1>$25</h1>
+                </div>
+        </div>
+                <!-- ARCOLA -->
+                <div class="menuitem">
+                    <img class="menuitemimg imgmobile slide-up" src="/assets/img/drinks/Arcolalogo.png" alt="">
+                        <div class="menuitemtext">
+                            <h1>ArCola Products</h1>
+                            <p>Including, but not limited to: Red Rum Rootbeer, I.C.E Cream Soda.</p>
+                            <h1>$25</h1>
+                        </div>
+                    <img class="menuitemimg imgright slide-up" src="/assets/img/drinks/Arcolalogo.png" alt="">
+                </div>
+    </div>
+
+
+            <footer>
+                <img class="footerlogo" src="/assets/img/250 rocksolidw.png" alt="">
+                <p>&copy;:Rock Solid Inc. - Designed by Von Hendrix</p>
+            </footer>
+    </body>
+</html>
